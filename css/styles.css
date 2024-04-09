@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Passion One", sans-serif;
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 6vh;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5vh;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+/* Corpo */
+
+section {
+    font-family: "Sriracha", sans-serif;
+    font-size: 3.5vw;
+    padding: 10vh 2vw;
+    line-height: 2em;
+}
+
+.branco p {
+    margin-bottom: 8vh;
+}
+
+.imagem {
+    background-color: darkgray;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.212); 
+}
+
+.imagem p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
+    
+
+}
+
+#joaninha {
+    background-image: url('../imagens/joaninha-grande.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+#papel {
+    background-image: url('../imagens/papel-grande.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
